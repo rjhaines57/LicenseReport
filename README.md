@@ -16,14 +16,14 @@ Details of the values of these will be be specific to your instance. The values 
 
 <pre>
 [postgresql]
-host=\<hostname\>
+host= < hostname >
 database=bds_hub
-user=\<database_user\>
-password=\<database_password\>
+user=< database_user >
+password=< database_password >
 port=55436
-sslcert=\<cert file name\>
-sslkey=\<cert key file name\>
-sslrootcert=\<root cert file name\>
+sslcert=< cert file name >
+sslkey=< cert key file name >
+sslrootcert=< root cert file name >
 sslmode=verify-ca
 options=-c search_path=reporting
 </pre>
