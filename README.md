@@ -14,7 +14,7 @@ Where:
 Parameters for connecting to reporting database need to added to the database.init file stored with the repo.
 Details of the values of these will be be specific to your instance. The values and the certificate files are available from Synopsys support
 
-<code>
+<pre>
 [postgresql]
 host=<hostname>
 database=bds_hub
@@ -26,6 +26,6 @@ sslkey=<cert key file name>
 sslrootcert=<root cert file name>
 sslmode=verify-ca
 options=-c search_path=reporting
-</code>
+</pre>
 
 
